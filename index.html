@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+
+    <title>DVEL</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+            <a href="" class="logo">
+                <img src="imgs/logo.png" alt="">
+            </a>
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" class="form-control" placeholder="Search Products">
+                <a href="" class="plus"><i class="fas fa-plus"></i></a>
+            </div>
+            <div class="basket-dots d-flex align-items-center">
+                <a href="" class="add-to-card mobile"><i class="fas fa-shopping-basket"></i></a>
+                <a href="" class="add-to-card desktop"><i class="fas fa-shopping-basket"></i></a>
+                <div class="dropdown">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!-- // header -->
+    <!-- Content -->
+    <section class="contant pr-500">
+        <!-- START CONTENT -->
+        <div id="page-content-wrapper" class="products-panel">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="products-tab" data-bs-toggle="tab" data-bs-target="#products" type="button" role="tab"
+                            aria-controls="products" aria-selected="true"><i class="fas fa-shopping-cart"></i> Products</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="dining-tab" data-bs-toggle="tab" data-bs-target="#dining" type="button" role="tab" aria-controls="dining"
+                            aria-selected="false"><i class="fas fa-utensils"></i> Dining</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="fee-tab" data-bs-toggle="tab" data-bs-target="#fee" type="button" role="tab" aria-controls="dining"
+                            aria-selected="false"><i class="fas fa-coins"></i> Fee</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="orders-tab" data-bs-toggle="tab" data-bs-target="#orders" type="button" role="tab" aria-controls="orders"
+                            aria-selected="false"><i class="fas fa-shopping-bag"></i> Orders</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="products" role="tabpanel" aria-labelledby="products-tab">
+                        <div class="products breadhide" id="tshirts">
+                                <div class="categories">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item" data-box="categories"><a href="#"><i class="fas fa-shapes"></i> Categories</a></li>
+                                            <li class="breadcrumb-item" data-box="clothing"><a href="#">Clothing</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">Tshirts</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                                <div class="products-box scrolldown">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                                                <a href="" data-productname="Long Sleeve Tee" data-catname="tshirts" data-price="25" class="productdetails" data-image="imgs/product1.png">
+                                                    <div class="image">
+                                                        <img src="imgs/product1.png" alt="" class="w-100 img-fluid">
+                                                    </div>
+                                                    <div class="details">
+                                                        <h2>Short Sleeve Tee</h2>
+                                                        <span>$35.00</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                                                <a href="" data-productname="Long Sleeve Tee" data-catname="tshirts" data-price="20" data-image="imgs/product2.png" class="productdetails">
+                                                    <div class="image">
+                                                        <img src="imgs/product2.png" alt="" class="w-100 img-fluid">
+                                                    </div>
+                                                    <div class="details">
+                                                        <h2>Long Sleeve Tee</h2>
+                                                        <span>$20.00</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                                                <a href="" data-productname="Long Sleeve Tee" data-catname="tshirts" data-price="15" data-image="imgs/product3.png" class="productdetails">
+                                                    <div class="image">
+                                                        <img src="imgs/product3.png" alt="" class="w-100 img-fluid">
+                                                    </div>
+                                                    <div class="details">
+                                                        <h2>Long Sleeve Tee</h2>
+                                                        <span>$15.00</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                                                <a href="" data-productname="Long Sleeve Tee" data-catname="tshirts" data-price="28" class="productdetails" data-image="imgs/product4.png">
+                                                    <div class="image">
+                                                        <img src="imgs/product4.png" alt="" class="w-100 img-fluid">
+                                                    </div>
+                                                    <div class="details">
+                                                        <h2>Long Sleeve Tee</h2>
+                                                        <span>$28.00</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                                                <a href="" data-productname="Long Sleeve Tee" data-catname="tshirts" data-price="25" class="productdetails" data-image="imgs/product1.png">
+                                                    <div class="image">
+                                                        <img src="imgs/product1.png" alt="" class="w-100 img-fluid">
+                                                    </div>
+                                                    <div class="details">
+                                                        <h2>Long Sleeve Tee</h2>
+                                                        <span>$25.00</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                                                <a href="" data-productname="Long Sleeve Tee" data-catname="tshirts" data-price="20" data-image="imgs/product2.png" class="productdetails">
+                                                    <div class="image">
+                                                        <img src="imgs/product2.png" alt="" class="w-100 img-fluid">
+                                                    </div>
+                                                    <div class="details">
+                                                        <h2>Long Sleeve Tee</h2>
+                                                        <span>$20.00</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                                                <a href="" data-productname="Long Sleeve Tee" data-catname="tshirts" data-price="15" data-image="imgs/product3.png" class="productdetails">
+                                                    <div class="image">
+                                                        <img src="imgs/product3.png" alt="" class="w-100 img-fluid">
+                                                    </div>
+                                                    <div class="details">
+                                                        <h2>Long Sleeve Tee</h2>
+                                                        <span>$15.00</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                                                <a href="" data-productname="Long Sleeve Tee" data-catname="tshirts" data-price="28" class="productdetails" data-image="imgs/product4.png">
+                                                    <div class="image">
+                                                        <img src="imgs/product4.png" alt="" class="w-100 img-fluid">
+                                                    </div>
+                                                    <div class="details">
+                                                        <h2>Long Sleeve Tee</h2>
+                                                        <span>$28.00</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="dining" role="tabpanel" aria-labelledby="dining-tab">
+                        <div class="categories">
+                            <i class="fas fa-shapes"></i>
+                            <select class="form-select">
+                                    <option>Categories</option>
+                                    <option>Category Name</option>
+                                    <option>Category Name</option>
+                                    <option>Category Name</option>
+                                </select>
+                        </div>
+                        <div class="boxes">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="box d-flex align-items-center justify-content-between">
+                                        <div class="name-number">
+                                            <h3>Clothing</h3>
+                                            <span>14 PRODUCTS</span>
+                                        </div>
+                                        <i class="fas fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="box d-flex align-items-center justify-content-between">
+                                        <div class="name-number">
+                                            <h3>Clothing</h3>
+                                            <span>14 PRODUCTS</span>
+                                        </div>
+                                        <i class="fas fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="box d-flex align-items-center justify-content-between">
+                                        <div class="name-number">
+                                            <h3>Clothing</h3>
+                                            <span>14 PRODUCTS</span>
+                                        </div>
+                                        <i class="fas fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="box d-flex align-items-center justify-content-between">
+                                        <div class="name-number">
+                                            <h3>Clothing</h3>
+                                            <span>14 PRODUCTS</span>
+                                        </div>
+                                        <i class="fas fa-image"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="fee" role="tabpanel" aria-labelledby="fee-tab">
+                        <div class="fee-head d-flex align-items-center justify-content-between">
+                            <span>$</span>
+                            <div class="toggle-radio d-flex align-items-center">
+                                <div class="taxable">
+                                    <i>Taxable</i>
+                                    <input type="checkbox" id="tax">
+                                    <label for="tax"></label>
+                                </div>
+                                <div class="d-p">
+                                    <input type="radio" id="dollar" name="d-p" checked>
+                                    <label for="dollar">$</label>
+                                    <input type="radio" id="percentage" name="d-p">
+                                    <label for="percentage">%</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fee-input">
+                            <div class="row">
+                                <div class="col-sm-7 input-field d-flex align-items-center">
+                                    <input type="text" placeholder="Fee Name" class="form-control">
+                                    <button class="btn btn-secondary">Apply</button>
+                                </div>
+                                <div class="col-md-5 fee">
+                                    <span>Fee</span>
+                                    <div class="fee-perc">0%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-box">
+                            <table>
+                                <tr>
+                                    <td><button class="btn btn-secondary fafa">1</button></td>
+                                    <td><button class="btn btn-secondary fafa">2</button></td>
+                                    <td><button class="btn btn-secondary fafa">3</button></td>
+                                    <td><button class="btn btn-secondary cccc">Clear</button></td>
+                                    <td><button class="btn btn-secondary e0e0">10%</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn btn-secondary fafa">4</button></td>
+                                    <td><button class="btn btn-secondary fafa">5</button></td>
+                                    <td><button class="btn btn-secondary fafa">6</button></td>
+                                    <td><button class="btn btn-secondary cccc"><i class="fas fa-backspace"></i></button></td>
+                                    <td><button class="btn btn-secondary e0e0">20%</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn btn-secondary fafa">7</button></td>
+                                    <td><button class="btn btn-secondary fafa">8</button></td>
+                                    <td><button class="btn btn-secondary fafa">9</button></td>
+                                    <td rowspan="2"><button class="btn btn-secondary c61">↵</button></td>
+                                    <td><button class="btn btn-secondary e0e0">30%</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn btn-secondary cccc">00</button></td>
+                                    <td><button class="btn btn-secondary fafa">0</button></td>
+                                    <td><button class="btn btn-secondary cccc">.</button></td>
+                                    <td><button class="btn btn-secondary e0e0">40%</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="orders" role="tabpanel" aria-labelledby="orders-tab">
+                        <div class="categories">
+                            <i class="fas fa-shapes"></i>
+                            <select class="form-select">
+                                            <option>Categories</option>
+                                            <option>Category Name</option>
+                                            <option>Category Name</option>
+                                            <option>Category Name</option>
+                                        </select>
+                        </div>
+                        <div class="boxes">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="box d-flex align-items-center justify-content-between">
+                                        <div class="name-number">
+                                            <h3>Clothing</h3>
+                                            <span>14 PRODUCTS</span>
+                                        </div>
+                                        <i class="fas fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="box d-flex align-items-center justify-content-between">
+                                        <div class="name-number">
+                                            <h3>Clothing</h3>
+                                            <span>14 PRODUCTS</span>
+                                        </div>
+                                        <i class="fas fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="box d-flex align-items-center justify-content-between">
+                                        <div class="name-number">
+                                            <h3>Clothing</h3>
+                                            <span>14 PRODUCTS</span>
+                                        </div>
+                                        <i class="fas fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="box d-flex align-items-center justify-content-between">
+                                        <div class="name-number">
+                                            <h3>Clothing</h3>
+                                            <span>14 PRODUCTS</span>
+                                        </div>
+                                        <i class="fas fa-image"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- end page-content-wrapper -->
+
+        <div id="drawer-wrapper">
+            <div class="customer-panel hide">
+                <div class="c-form">
+                    <i class="fas fa-user-alt"></i>
+                    <input type="text" class="form-control" placeholder="Search Customer">
+                    <a href="" class="plus" data-bs-toggle="modal" data-bs-target="#addUser"><i class="fas fa-plus"></i></a>
+                </div>
+                <div class="users">
+                </div>
+                <div class="calculation">
+                    <div class="c-panel">
+                        <div class="head d-flex align-items-center justify-content-between">
+                            <span>SUBTOTAL</span>
+                            <i class="sum">$0.00</i>
+                        </div>
+                        <div class="body">
+                            <div class="row g-2">
+                                <div class="col-6 col-sm-3">
+                                    <a href="" class="item">
+                                            <i class="fas fa-utensils"></i>
+                                            <span>Dining</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3">
+                                    <a href="" class="item">
+                                            <i class="fas fa-tag"></i>
+                                            <span>Coupon</span>
+                                        </a>
+                                </div>
+                                <div class="col-6 col-sm-3">
+                                    <a href="" class="item">
+                                            <i class="fas fa-clipboard-list"></i>
+                                            <span>Note</span>
+                                        </a>
+                                </div>
+                                <div class="col-6 col-sm-3">
+                                    <a href="" class="item more">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                            <span>More</span>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary w-100 d-flex align-items-center justify-content-between">
+                        <div class="pay">
+                            <h5>Pay</h5>
+                            <span id="items-number">0 item</span>
+                        </div>
+                        <i class="sum">$0.00</i>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- END CONTENT -->
+
+        <div class="products-panel">
+            <div class="status d-flex align-items-center justify-content-between">
+                <div class="left">
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <div class="right">
+                    <i class="fas fa-circle"></i>
+                </div>
+            </div>
+        </div>
+
+    
+
+    <div class="modal fade" id="addUser" tabindex="-1" aria-labelledby="addUserLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="addUserLabel"><i class="far fa-address-card"></i> Add custoamer</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" id="fname">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" id="lname">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="input-box">
+                            <label for="cname">Company Name</label>
+                            <input type="text" class="form-control" id="cname">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="stadress">Street Address</label>
+                            <input type="text" class="form-control" id="stadress">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="appartment">Apartment, Suite, Unit, Etc. (Optional)</label>
+                            <input type="text" class="form-control" id="appartment">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="town">Town / City</label>
+                            <input type="text" class="form-control" id="town">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="zip">Postcode / ZIP</label>
+                            <input type="text" class="form-control" id="zip">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="country">Country</label>
+                            <select class="form-select" id="country">
+                                <option>United States (US)</option>
+                                <option>United States (US)</option>
+                                <option>United States (US)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="state">State</label>
+                            <select class="form-select" id="state">
+                                <option>Illinois</option>
+                                <option>Illinois</option>
+                                <option>Illinois</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="phone">Phone</label>
+                            <input type="text" class="form-control" id="phone">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label for="email">Email Address</label>
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer d-flex align-items-center justify-content-between">
+                <div class="save d-flex align-items-center">
+                    <input type="checkbox" id="save">
+                    <label for="save"></label>
+                    <a href="" class="btn btn-link">Save customer</a>
+                </div>
+                <a href="" class="btn btn-link">Add customer</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- // Content -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
